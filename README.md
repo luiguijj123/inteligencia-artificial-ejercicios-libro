@@ -9,10 +9,10 @@ Respuestas a los ejercicios del libro *Artificial Intelligence: Foundations of C
 
 | Capítulo | Ejercicio | Archivo |
 |---|---|---|
-| 8. Redes neuronales y aprendizaje profundo | 8.1 (XOR) | [ejercicio-8.1.md](capitulo-08/ejercicio-8.1.md) |
-| 8. Redes neuronales y aprendizaje profundo | 8.6 (LSTM y Transformer) | [ejercicio-8.6.md](capitulo-08/ejercicio-8.6.md) |
-| Aprendizaje por refuerzo | Ejercicio 8 | [ejercicio-8.md](refuerzo/ejercicio-8.md) |
-| Aprendizaje por refuerzo | Ejercicio 12 | [ejercicio-12.md](refuerzo/ejercicio-12.md) |
+| 8. Redes neuronales y aprendizaje profundo | 8.1 (XOR) | [Ejercicio 8.1](capitulo-08/ejercicio-8.1/README.md) |
+| 8. Redes neuronales y aprendizaje profundo | 8.6 (LSTM y Transformer) | [Ejercicio 8.6](capitulo-08/ejercicio-8.6/README.md) |
+| Aprendizaje por refuerzo | Ejercicio 8 | [Ejercicio 8](aprendizaje-refuerzo/ejercicio-8/README.md) |
+| Aprendizaje por refuerzo | Ejercicio 12 | [Ejercicio 12](aprendizaje-refuerzo/ejercicio-12/README.md) |
 
 ## Cómo está organizado
 

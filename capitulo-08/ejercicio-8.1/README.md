@@ -10,19 +10,13 @@ Se puede representar XOR usando una red con dos entradas, una capa oculta de dos
 
 Las unidades ocultas son:
 
-$$
-h_{1}=relu(x-y)
-$$
+$$h_{1}=relu(x-y)$$
 
-$$
-h_{2}=relu(-x+y)
-$$
+$$h_{2}=relu(-x+y)$$
 
 y la salida es:
 
-$$
-salida=sigmoid(-5+10h_{1}+10h_{2})
-$$
+$$salida=sigmoid(-5+10h_{1}+10h_{2})$$
 
 Por lo tanto, los pesos de la primera unidad oculta son $w_x=1$, $w_y=-1$ y sesgo $0$; los de la segunda son $w_x=-1$, $w_y=1$ y sesgo $0$. Para la salida, los pesos son $10$ para $h_{1}$ y $10$ para $h_{2}$, con sesgo $-5$.
 
@@ -39,17 +33,13 @@ La función XOR vale 1 únicamente cuando las dos entradas son diferentes:
 
 XOR puede escribirse como:
 
-$$
-(x\land \neg y)\lor(\neg x\land y)
-$$
+$$(x\land \neg y)\lor(\neg x\land y)$$
 
 Por eso se utilizan dos unidades en la capa oculta.
 
 La primera unidad es:
 
-$$
-h_{1}=relu(x-y)
-$$
+$$h_{1}=relu(x-y)$$
 
 Esta unidad vale 1 únicamente cuando $x=1$ y $y=0$:
 
@@ -62,9 +52,7 @@ Esta unidad vale 1 únicamente cuando $x=1$ y $y=0$:
 
 La segunda unidad es:
 
-$$
-h_{2}=relu(-x+y)
-$$
+$$h_{2}=relu(-x+y)$$
 
 Esta unidad vale 1 únicamente cuando $x=0$ y $y=1$:
 
@@ -79,21 +67,15 @@ Entonces $h_{1}$ y $h_{2}$ representan los dos casos en los que XOR debe ser ver
 
 Para combinar ambas unidades se utiliza la misma idea del Ejemplo 8.1 mediante una salida sigmoide:
 
-$$
-salida=sigmoid(-5+10h_{1}+10h_{2})
-$$
+$$salida=sigmoid(-5+10h_{1}+10h_{2})$$
 
 Si $h_{1}=h_{2}=0$:
 
-$$
-sigmoid(-5)\approx0
-$$
+$$sigmoid(-5)\approx0$$
 
 Si una de las dos unidades vale 1:
 
-$$
-sigmoid(-5+10)=sigmoid(5)\approx1
-$$
+$$sigmoid(-5+10)=sigmoid(5)\approx1$$
 
 Por lo tanto:
 

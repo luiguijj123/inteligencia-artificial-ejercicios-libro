@@ -1,7 +1,9 @@
 # Inteligencia Artificial – Ejercicios del libro
 
-**Alumno:** Luigui Cruz Sandiga  
-**Grupo:** 7000 · Facultad de Ciencias, UNAM
+**Universidad Nacional Autónoma de México**
+**Grupo:** 7000 - Facultad de Ciencias
+**Alumno:** Luigui Cruz Sandiga
+**Docente:** Jessica Mendez Rincon
 
 Respuestas a los ejercicios del libro *Artificial Intelligence: Foundations of Computational Agents*, 3a. ed., de Poole y Mackworth.
 
